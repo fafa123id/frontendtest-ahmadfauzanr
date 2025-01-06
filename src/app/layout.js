@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/site-logo.webp" />
       </head>
       <body>
         <div className="min-h-screen bg-white">
