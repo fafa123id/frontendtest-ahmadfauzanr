@@ -9,11 +9,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body>
         <div className="min-h-screen bg-white">
-        <Header />
-        <Banner />
-        {children}
+          <Header />
+          <Banner />
+          {children}
         </div></body>
     </html>
   )
